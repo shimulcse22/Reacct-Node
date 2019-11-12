@@ -1,0 +1,34 @@
+{
+  "name": "react-node",
+  "version": "1.0.0",
+  "description": "Socail network for developers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimulcse22/Reacct-Node.git"
+  },
+  "author": "Shimul Mehedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shimulcse22/Reacct-Node/issues"
+  },
+  "homepage": "https://github.com/shimulcse22/Reacct-Node#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.10",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  }
+}
